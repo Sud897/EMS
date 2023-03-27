@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2148c0;
+  width: 100%;
+  position: relative;
+  .headerText {
+    margin-left: 10rem;
+    padding: 4rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    @media(max-width:768px){
+      margin-left: 3rem;
+      padding: 3rem 0;
+    }
+  }
+  .hamburger {
+    margin-right: 2.5rem;
+    cursor: pointer;
+    img {
+      width: 5rem;
+    }
+  }
+  .dropdown {
+    position: absolute;
+    top: 10.5rem;
+    right: 0;
+    margin-right: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 30rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    span {
+      font-size: 1.4rem;
+      text-align: center;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      color: #2148c0;
+      text-transform: uppercase;
+      word-break: break-all;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      padding: 0.8rem 1.2rem;
+      background-color: white;
+      border-color: #2148c0;
+      color: #2148c0;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 1.4rem;
+      border-radius: 0.4rem;
+    }
+    @media(max-width:768px){
+      top:8.5rem
+    }
+  }
+}

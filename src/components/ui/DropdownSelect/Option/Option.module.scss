@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+  cursor: pointer;
+  .optionName {
+    padding: 0 2rem;
+    font-size: 1.9rem;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+}
+.activeList {
+  background-color: rgb(195, 220, 247);
+}
+.hoveredList {
+  background-color: rgb(195, 220, 247);
+}

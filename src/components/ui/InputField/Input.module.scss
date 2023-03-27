@@ -1,0 +1,39 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  // width: 100%;
+  .input {
+    border: 1px solid silver;
+    border-radius: 0.4rem;
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    input {
+      background: none;
+      border: 0;
+      width: 100%;
+      height: 100%;
+      color: silver;
+      font-size: 1.9rem;
+      line-height: 2.5rem;
+      font-family: "Montserrat", sans-serif;
+      &:focus,
+      &:hover,
+      &:active {
+        outline-style: none;
+        outline: 0;
+        background: none;
+      }
+      &::placeholder {
+        color: silver;
+      }
+    }
+    img {
+      cursor: pointer;
+      width: 2.2rem;
+    }
+  }
+}

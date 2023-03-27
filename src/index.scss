@@ -1,0 +1,129 @@
+*,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  // overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #2148c0;
+}
+
+img {
+  display: block;
+}
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  padding-right: 0.7rem;
+  margin-right: 0.7rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #dfe1e4;
+  border-radius: 5rem;
+  padding-right: 0.7rem;
+  margin-right: 0.7rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c8d8e9;
+  border-radius: 5rem;
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.Toastify__toast {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1680px) and (min-width: 1537px) {
+  html,
+  body {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 1536px) and (min-width: 1441px) {
+  html,
+  body {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1367px) {
+  html,
+  body {
+    font-size: 47%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+  html,
+  body {
+    font-size: 44.5%;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1041px) {
+  html,
+  body {
+    font-size: 42%;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 993px) {
+  html,
+  body {
+    font-size: 33.8%;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 957px) {
+  html,
+  body {
+    font-size: 32.5%;
+  }
+}
+
+@media screen and (max-width: 956px) and (min-width: 811px) {
+  html,
+  body {
+    font-size: 29.29%;
+  }
+}
+
+@media screen and (max-width: 810px) and (min-width: 801px) {
+  html,
+  body {
+    font-size: 26.37%;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 769px) {
+  html,
+  body {
+    font-size: 26.042%;
+  }
+}
+@media (max-width: 370px) {
+  html,
+  body {
+    font-size: 52%;
+  }
+}

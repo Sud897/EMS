@@ -1,0 +1,52 @@
+.selectContainer {
+  width: 35rem;
+  position: relative;
+  .selectedBoxContainer {
+    width: 35rem;
+    max-height: 175px;
+    overflow-y: auto;
+    border-radius: 0.4rem;
+    background-color: white;
+    cursor: pointer;
+    .innerSelectedBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      .selectedText {
+        color: black;
+        font-size: 1.7rem;
+        font-family: "Montserrat", sans-serif;
+      }
+      .arrow {
+        width: 1.6rem;
+      }
+      .oppositeArrow {
+        rotate: 180deg;
+      }
+    }
+  }
+  .selectedBoxContainerOpen {
+    border-radius: 0.4rem;
+  }
+  .optionsOuterContainer {
+    width: 100%;
+    border-top: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-height: 275px;
+    overflow-y: auto;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    ul {
+      list-style: none;
+    }
+  }
+
+  .showOptionsContainer {
+    display: block;
+  }
+}
